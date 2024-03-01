@@ -37,8 +37,8 @@
       }
     }
   ],
-  "rest": "http://localhost:1317/",
-  "rpc": "http://localhost:26658/",
+  "rest": "https://explorer-restapi.sovereignty.one",
+  "rpc": "https://explorer-rpcapi.sovereignty.one",
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "SOID",
