@@ -1,0 +1,50 @@
+{
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ssi",
+    "bech32PrefixAccPub": "cosmospub",
+    "bech32PrefixConsAddr": "cosmosvalcons",
+    "bech32PrefixConsPub": "cosmosvalconspub",
+    "bech32PrefixValAddr": "cosmosvaloper",
+    "bech32PrefixValPub": "cosmosvaloperpub"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "chainId": "discoverynet-chain-1",
+  "chainName": "SovID",
+  "chainSymbolImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link",
+  "currencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SOID",
+      "coinGeckoId": "nun",
+      "coinMinimalDenom": "stake",
+      "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
+    }
+  ],
+  "features": [],
+  "feeCurrencies": [
+    {
+      "coinDecimals": 6,
+      "coinDenom": "SOID",
+      "coinGeckoId": "nun",
+      "coinMinimalDenom": "stake",
+      "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/",
+      "gasPriceStep": {
+        "average": 0.025,
+        "high": 0.03,
+        "low": 0.005
+      }
+    }
+  ],
+  "rest": "http://localhost:1317/",
+  "rpc": "http://localhost:26658/",
+  "stakeCurrency": {
+    "coinDecimals": 6,
+    "coinDenom": "SOID",
+    "coinGeckoId": "nun",
+    "coinMinimalDenom": "stake",
+    "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
+  },
+  "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+}
