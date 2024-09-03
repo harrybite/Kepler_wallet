@@ -1,0 +1,51 @@
+{
+    "bech32Config": {
+      "bech32PrefixAccAddr": "ssi",
+      "bech32PrefixAccPub": "cosmospub",
+      "bech32PrefixConsAddr": "cosmosvalcons",
+      "bech32PrefixConsPub": "cosmosvalconspub",
+      "bech32PrefixValAddr": "cosmosvaloper",
+      "bech32PrefixValPub": "cosmosvaloperpub"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "chainId": "sov-5",
+    "chainName": "PersonaPulse",
+    "chainSymbolImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link",
+    "currencies": [
+      {
+        "coinDecimals": 6,
+        "coinDenom": "SOVID",
+        "coinGeckoId": "nun",
+        "coinMinimalDenom": "usovid",
+        "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
+      }
+    ],
+    "features": [],
+    "feeCurrencies": [
+      {
+        "coinDecimals": 6,
+        "coinDenom": "SOVID",
+        "coinGeckoId": "nun",
+        "coinMinimalDenom": "usovid",
+        "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/",
+        "gasPriceStep": {
+          "average": 0.28,
+          "high": 0.33,
+          "low": 0.22
+        }
+      }
+    ],
+    "rest": "http://146.190.5.120:1317",
+    "rpc": "http://146.190.5.120:26657",
+    "stakeCurrency": {
+      "coinDecimals": 6,
+      "coinDenom": "SOVID",
+      "coinGeckoId": "nun",
+      "coinMinimalDenom": "usovid",
+      "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
+    },
+    "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
+  }
+  

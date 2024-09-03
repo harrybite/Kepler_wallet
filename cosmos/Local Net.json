@@ -10,15 +10,15 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "discoverynet-chain-1",
-  "chainName": "SovID",
+  "chainId": "sovt-5",
+  "chainName": "SovID Local",
   "chainSymbolImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link",
   "currencies": [
     {
       "coinDecimals": 6,
-      "coinDenom": "SOID",
+      "coinDenom": "SOVID",
       "coinGeckoId": "nun",
-      "coinMinimalDenom": "stake",
+      "coinMinimalDenom": "usovid",
       "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
     }
   ],
@@ -26,9 +26,9 @@
   "feeCurrencies": [
     {
       "coinDecimals": 6,
-      "coinDenom": "SOID",
+      "coinDenom": "SOVID",
       "coinGeckoId": "nun",
-      "coinMinimalDenom": "stake",
+      "coinMinimalDenom": "usovid",
       "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/",
       "gasPriceStep": {
         "average": 0.025,
@@ -37,13 +37,13 @@
       }
     }
   ],
-  "rest": "https://explorer-restapi.sovereignty.one",
-  "rpc": "https://explorer-rpcapi.sovereignty.one",
+  "rest": "http://localhost:1317",
+  "rpc": "http://localhost:26657",
   "stakeCurrency": {
     "coinDecimals": 6,
-    "coinDenom": "SOID",
+    "coinDenom": "SOVID",
     "coinGeckoId": "nun",
-    "coinMinimalDenom": "stake",
+    "coinMinimalDenom": "usovid",
     "coinImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link/"
   },
   "walletUrlForStaking": "https://wallet.keplr.app/chains/cosmos-hub"
