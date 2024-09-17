@@ -10,7 +10,7 @@
   "bip44": {
     "coinType": 118
   },
-  "chainId": "sovt-5",
+  "chainId": "sov-5",
   "chainName": "SovID Local",
   "chainSymbolImageUrl": "https://bafkreifz4e3mpyt5ai6u6obzwuf2b5ry35urn4r7ynwfelzbrsr2hbximu.ipfs.nftstorage.link",
   "currencies": [
